@@ -11,7 +11,7 @@ from datetime import datetime
 class DualOutputWaybackScanner:
     def __init__(self, root):
         self.root = root
-        self.root.title("Wayback Scanner Pro - Author:ss GitHub:https://github.com/OxShadow")
+        self.root.title("Wayback Scanner - GitHub:https://github.com/OxShadow")
         self.root.geometry("850x750")
         self.setup_ui()
         self.setup_crawler()
@@ -81,7 +81,7 @@ class DualOutputWaybackScanner:
         progress_frame.pack(fill=tk.BOTH, expand=True)
 
         self.progress_label = ttk.Label(progress_frame,
-                                        text="Ready - This may take time for large domains, please wait...")
+                                        text="Ready - This may take time for large domains, please wait...     微信公众号:shadowsec")
         self.progress_label.pack(anchor=tk.W)
 
         self.progress = ttk.Progressbar(progress_frame, orient=tk.HORIZONTAL, mode='determinate')
@@ -127,7 +127,7 @@ class DualOutputWaybackScanner:
         # URL parameters that might indicate files
         self.file_params = [
             'url', 'file', 'filepath', 'userid', 'token',
-            'ak', 'sk', 'secret', 'password', 'key',
+            'ak', 'sk', 'secret', 'password', 'key','redirect',
             'accesskey', 'privatekey', 'credential', 'auth'
         ]
 
