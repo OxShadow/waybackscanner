@@ -3,7 +3,7 @@ This project uses the wayback machine API interface to collect some information 
 
 This program is very easy to use, using UI design, only need
 
-***python wayback.py***
+***python waybackscanner.py***
 <img align='center' src="./image/1743573361796.jpg" >
 
 By default, two txt files will be generated in the current directory, one for all URLs and the other for more sensitive URLs. You can also choose
